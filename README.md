@@ -35,6 +35,15 @@ python setup.py install
 
 ```
 
+My stuff
+
+```shell
+python3.11 -m  venv ./venv
+source ./venv/bin/activate
+pip install wheel
+python setup.py bdist_wheel
+```
+
 
 ## How to use
 
